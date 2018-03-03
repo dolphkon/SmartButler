@@ -2,9 +2,9 @@
    TabLayout 是 Google 官方在 14 年 Google I/O 大会上推出的一个具有 Material Design 效果的一个控件库，作为一个并标签指示器，它可以与 ViewPager 进行联动，两者配合 Fragment 使用可以实现滑动标签页，就是类似知乎和微信那种。
    # 实现过程
  * 首先我们需要在 app 的 gradle  中添加 design 包的依赖库：
- '''compile 'com.android.support:design:25.0.0''''
+ 'compile 'com.android.support:design:25.0.0''
   好，我们来看看主页面 activity_main.xml 的布局文件:
-  '''<?xml version="1.0" encoding="utf-8"?>
+  '<?xml version="1.0" encoding="utf-8"?>'
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
